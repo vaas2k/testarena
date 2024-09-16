@@ -1,5 +1,6 @@
 import { prisma } from "@/utils/prisma";
 
+export const runtime = "edge" ;
 export async function GET( request: Request,{ params }: { params: { slug: string } } ) {
     const { slug } = params;
     console.log(slug);

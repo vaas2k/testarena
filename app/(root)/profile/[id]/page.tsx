@@ -55,4 +55,6 @@ const Profile = ({ params }: any) => {
     </>
   );
 };
+
+
 export default Profile;
